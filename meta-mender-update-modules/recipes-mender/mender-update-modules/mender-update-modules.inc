@@ -8,3 +8,5 @@ SRC_URI = "git://github.com/pa-innovation/mender-update-modules.git"
 SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
+
+PV= "$1.0+git${SRCPV}"
